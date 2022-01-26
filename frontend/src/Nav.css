@@ -1,0 +1,25 @@
+.Jumbotron {
+    margin-top: 20px;
+}
+
+.NavBlog {
+    margin: 15px;
+}
+
+.NavBlog1 {
+    margin-left: 0;
+    margin: 15px;
+}
+
+.display-3 {
+    display: flex;
+}
+
+.lead {
+    display: flex;
+}
+
+.NavLinks{
+    display: flex;
+    margin-right: 0;
+}

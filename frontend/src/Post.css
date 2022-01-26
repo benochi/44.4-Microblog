@@ -1,0 +1,53 @@
+.Post {
+    text-align: left;
+}
+
+.Post-header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+.Post-body {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    width: 95%;
+    margin: auto;
+}
+
+.Post-intro p {
+    font-style: italic;
+}
+
+.Post-buttons {
+    text-align: right;
+}
+
+.fa-trash-alt {
+    color: rgb(218, 35, 35);
+    margin: 4px;
+}
+
+.fa-edit {
+    color: rgb(38, 138, 172);
+    margin: 4px;
+}
+
+.fa-thumbs-up {
+    color: rgb(18, 104, 18);
+    margin: 4px;
+}
+
+.fa-thumbs-down {
+    color: rgb(218, 35, 35);
+    margin: 4px;
+
+}
+
+.fa-trash-alt:hover,
+.fa-edit:hover,
+.fa-thumbs-up:hover,
+.fa-thumbs-down:hover {
+    cursor: pointer;
+}
